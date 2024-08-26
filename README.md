@@ -1,53 +1,53 @@
-## RETAIL AI - Análise Inteligente para o Varejo
+## RETAIL AI - Intelligent Analysis for Retail
 
-**Aprimore a experiência de compra e otimize suas operações com o poder da Visão Computacional.**
+**Enhance the shopping experience and optimize your operations with the power of Computer Vision.**
 
 ![RETAIL AI](src/output.gif)
 
-Este projeto utiliza tecnologias avançadas de IA para fornecer insights valiosos sobre o comportamento dos clientes em ambientes de varejo, como o fluxo de pessoas, tempo de permanência e até mesmo estimativas demográficas.
+This project leverages advanced AI technologies to provide valuable insights into customer behavior in retail environments, such as foot traffic, dwell time, and even demographic estimates.
 
-### Funcionalidades Principais:
+### Key Features:
 
-* **Detecção e Rastreamento de Pessoas:** Identifica e acompanha o movimento de indivíduos em tempo real.
-* **Estimativa de Gênero e Idade:** A partir da detecção facial, estima informações demográficas dos clientes.
-* **Análise de Tempo de Permanência:** Calcula o tempo que cada pessoa passa em diferentes áreas da loja.
-* **Heatmaps:** Gera mapas de calor para visualizar o fluxo de clientes e identificar zonas de maior interesse.
-* **Logs Detalhados:** Registra informações cruciais em formatos JSON e CSV para análises posteriores.
-* **Contagem de Entradas e Saídas:** Monitora o número de pessoas que entram e saem de áreas específicas.
+* **Person Detection and Tracking:** Identifies and tracks the movement of individuals in real-time.
+* **Gender and Age Estimation:** Estimates demographic information of customers based on facial detection.
+* **Dwell Time Analysis:** Calculates the time each person spends in different areas of the store.
+* **Heatmaps:** Generates heatmaps to visualize customer flow and identify high-interest zones.
+* **Detailed Logs:** Records crucial information in JSON and CSV formats for later analysis.
+* **Entry and Exit Counting:** Monitors the number of people entering and leaving specific areas.
 
-### Execução de Modelos YOLO:
+### YOLO Model Execution:
 
-A função `run_yolo_models` simplifica a execução de modelos YOLO para detecção, rastreamento e estimativa de pose.
+The `run_yolo_models` function simplifies the execution of YOLO models for detection, tracking, and pose estimation.
 
 ```python
 def run_yolo_models(model_path, task, format, **kwargs):
     """
-    Executa modelos YOLO automaticamente para detecção, rastreamento ou estimativa de pose.
+    Automatically runs YOLO models for detection, tracking, or pose estimation.
 
     Args:
-        model_path (str): Caminho para o arquivo do modelo.
-        task (str): Tarefa a ser realizada pelo modelo ('track', 'detect' ou 'pose').
-        format (str): Formato do arquivo do modelo ('openvino', 'onnx' ou 'pt').
-        **kwargs: Se "classes" for passado, o modelo filtrará as detecções por classe.
+        model_path (str): Path to the model file.
+        task (str): Task to be performed by the model ('track', 'detect', or 'pose').
+        format (str): Format of the model file ('openvino', 'onnx', or 'pt').
+        **kwargs: If "classes" is passed, the model will filter detections by class.
     """
 ```
 
-### Estrutura do Projeto:
+### Project Structure:
 
-* **`main.py`**: Responsável por executar a inferência completa do projeto em vídeos, aplicando todas as funcionalidades em conjunto para gerar análises abrangentes.
-* **`visualize.ipynb`**: Notebook Jupyter que demonstra as técnicas individuais do projeto (detecção, rastreamento, estimativa de idade e gênero, etc.) de forma isolada em imagens estáticas, facilitando a compreensão de cada etapa do processo.
+* **`main.py`**: Responsible for running the full project inference on videos, applying all functionalities together to generate comprehensive analyses.
+* **`visualize.ipynb`**: Jupyter Notebook that demonstrates the project's individual techniques (detection, tracking, age and gender estimation, etc.) in isolation on static images, facilitating the understanding of each step of the process.
 
-### Downloads e Repositórios:
+### Downloads and Repositories:
 
-* **Arquivos do Projeto (incluindo video original utilizado na inferência e os outputs relacionados):** [Retail files](https://drive.google.com/drive/folders/1XzXzfcilRSrZhu5I0jb4mRgxC1q4WJiP?usp=share_link)
-* **Pesos e Checkpoints do Mivolo:** [Mivolo weights / mivolo checkpoint](https://drive.google.com/drive/folders/1FagDwoq8GfayuBLEye5IolINvF-9ixDO?usp=share_link)
-* **Repositório Mivolo:** [mivolo model link](https://github.com/WildChlamydia/MiVOLO)
+* **Project Files (including original video used in inference and related outputs):** [Retail files](https://drive.google.com/drive/folders/1XzXzfcilRSrZhu5I0jb4mRgxC1q4WJiP?usp=share_link)
+* **Mivolo Weights and Checkpoints:** [Mivolo weights / Mivolo checkpoint](https://drive.google.com/drive/folders/1FagDwoq8GfayuBLEye5IolINvF-9ixDO?usp=share_link)
+* **Mivolo Repository:** [Mivolo model link](https://github.com/WildChlamydia/MiVOLO)
 
-### Próximos Passos:
+### Next Steps:
 
-* **Instalação:** Detalhes sobre como configurar o ambiente e instalar as dependências necessárias.
-* **Execução:** Instruções passo a passo para executar o projeto, incluindo exemplos de uso da função `run_yolo_models` e como utilizar `main.py` e `visualize.ipynb`.
-* **Configuração:** Explicação de como personalizar o projeto para diferentes cenários e necessidades.
-* **Contribuição:** Diretrizes para contribuir com o desenvolvimento do projeto.
+* **Installation:** Details on how to set up the environment and install the necessary dependencies.
+* **Execution:** Step-by-step instructions to run the project, including examples of how to use the `run_yolo_models` function and how to utilize `main.py` and `visualize.ipynb`.
+* **Configuration:** Explanation on how to customize the project for different scenarios and needs.
+* **Contribution:** Guidelines on how to contribute to the project’s development.
 
-**Com o RETAIL AI, transforme dados em decisões estratégicas para o seu negócio.**
+**With RETAIL AI, transform data into strategic decisions for your business.**
