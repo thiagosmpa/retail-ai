@@ -39,9 +39,9 @@ def run_yolo_models(model_path, task, format, **kwargs):
 
 ### Downloads e Repositórios:
 
-* **Arquivos do Projeto:** [Retail files](https://drive.google.com/drive/folders/1XzXzfcilRSrZhu5I0jb4mRgxC1q4WJiP?usp=share_link)
+* **Arquivos do Projeto (incluindo video original utilizado na inferência e os outputs relacionados):** [Retail files](https://drive.google.com/drive/folders/1XzXzfcilRSrZhu5I0jb4mRgxC1q4WJiP?usp=share_link)
 * **Pesos e Checkpoints do Mivolo:** [Mivolo weights / mivolo checkpoint](https://drive.google.com/drive/folders/1FagDwoq8GfayuBLEye5IolINvF-9ixDO?usp=share_link)
-* **Modelo Mivolo:** [mivolo model link](https://github.com/WildChlamydia/MiVOLO)
+* **Repositório Mivolo:** [mivolo model link](https://github.com/WildChlamydia/MiVOLO)
 
 ### Próximos Passos:
 
