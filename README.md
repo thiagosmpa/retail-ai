@@ -2,6 +2,8 @@
 
 **Aprimore a experiência de compra e otimize suas operações com o poder da Visão Computacional.**
 
+![RETAIL AI](src/output.gif)
+
 Este projeto utiliza tecnologias avançadas de IA para fornecer insights valiosos sobre o comportamento dos clientes em ambientes de varejo, como o fluxo de pessoas, tempo de permanência e até mesmo estimativas demográficas.
 
 ### Funcionalidades Principais:
