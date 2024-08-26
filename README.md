@@ -25,7 +25,11 @@ Ou seja, as funções totais serão:
 - CONTA QUANTAS PESSOAS ENTRARAM OU SAÍRAM DE UMA ÁREA
 
 
+Downloads:
+- [Mivolo weights / mivolo checkpoint](https://drive.google.com/drive/folders/1FagDwoq8GfayuBLEye5IolINvF-9ixDO?usp=share_link)
+
 Repositories:
 - [mivolo model link](https://github.com/WildChlamydia/MiVOLO)
+
 
 
