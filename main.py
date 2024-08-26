@@ -151,5 +151,5 @@ def main(url):
 
 
 if __name__ == '__main__':
-    url = '/Users/thiagomachado/Documents/Programação/Python/src/Videos/retail.mp4'
+    url = 'src/videos/retail.mp4'
     main(url)

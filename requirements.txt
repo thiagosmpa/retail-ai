@@ -1,0 +1,9 @@
+mivolo==0.6.0.dev0
+numpy==2.1.0
+opencv_python==4.9.0.80
+pandas==2.2.2
+Pillow==10.4.0
+supervision==0.22.0
+torch==2.3.0
+transformers==4.44.2
+ultralytics==8.1.0
