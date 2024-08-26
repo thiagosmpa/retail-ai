@@ -30,6 +30,11 @@ def run_yolo_models(model_path, task, format, **kwargs):
     """
 ```
 
+### Estrutura do Projeto:
+
+* **`main.py`**: Responsável por executar a inferência completa do projeto em vídeos, aplicando todas as funcionalidades em conjunto para gerar análises abrangentes.
+* **`visualize.ipynb`**: Notebook Jupyter que demonstra as técnicas individuais do projeto (detecção, rastreamento, estimativa de idade e gênero, etc.) de forma isolada em imagens estáticas, facilitando a compreensão de cada etapa do processo.
+
 ### Downloads e Repositórios:
 
 * **Arquivos do Projeto:** [Retail files](https://drive.google.com/drive/folders/1XzXzfcilRSrZhu5I0jb4mRgxC1q4WJiP?usp=share_link)
@@ -39,12 +44,8 @@ def run_yolo_models(model_path, task, format, **kwargs):
 ### Próximos Passos:
 
 * **Instalação:** Detalhes sobre como configurar o ambiente e instalar as dependências necessárias.
-* **Execução:** Instruções passo a passo para executar o projeto, incluindo exemplos de uso da função `run_yolo_models`.
+* **Execução:** Instruções passo a passo para executar o projeto, incluindo exemplos de uso da função `run_yolo_models` e como utilizar `main.py` e `visualize.ipynb`.
 * **Configuração:** Explicação de como personalizar o projeto para diferentes cenários e necessidades.
 * **Contribuição:** Diretrizes para contribuir com o desenvolvimento do projeto.
 
 **Com o RETAIL AI, transforme dados em decisões estratégicas para o seu negócio.**
-
-**Observação:** Este README fornece uma estrutura inicial. Sinta-se à vontade para adicionar mais seções, como exemplos de visualização, resultados de testes ou informações sobre a equipe de desenvolvimento, para torná-lo ainda mais completo e informativo.
-
-**Lembre-se:** Um bom README é essencial para apresentar seu projeto de forma clara e convidativa, incentivando outros a explorá-lo, utilizá-lo e até mesmo contribuir para seu desenvolvimento. 
